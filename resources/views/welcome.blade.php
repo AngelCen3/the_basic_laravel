@@ -9,6 +9,6 @@
 <body>
     Hello internet
     <!---We can add more components-->
-    <livewire:counter />
+    <livewire:todos/>
 </body>
 </html>
