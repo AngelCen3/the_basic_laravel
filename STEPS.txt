@@ -1,0 +1,5 @@
+Este es un curso de livewire de la pagina oficial
+    ->https://livewire.laravel.com/screencast/getting_started/installation
+
+php artisan livewire:layout
+--->resources\views\components\layouts\app.blade.php

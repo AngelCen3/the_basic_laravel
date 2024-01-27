@@ -3,6 +3,8 @@
     Count: {{ $count }}
 
     <!--We clicked to activate increment function-->
-    <button wire:click="increment(2)">+</button>
+    <button wire:mouseenter="increment(2)">+</button>
+    {{--Aplica cuando el puntero entra al botton--}}
+    {{--<button wire:click="increment(2)">+</button>--}}
 
 </div>

@@ -9,6 +9,8 @@
 <body>
     Hello internet
     <!---We can add more components-->
-    <livewire:todos/>
+    {{--<livewire:todos/>--}}
+    {{--<livewire:hello-world/>--}}
+    {{--<livewire:counter/> <!--Video#2-->--}}
 </body>
 </html>

@@ -1,11 +1,14 @@
 <div>
     <!--Send them to function add-->
     <form wire:submit="add">
-        <input type="text" wire:model.live.debounce.5ms="todo">
+        <!--We do that the time of capture was delated debounce -->
+       <!--<input type="text" wire:model.live.debounce.5ms="todo">-->
+        <input type="text" wire:model.change="todo">
 
+        <!-- wire:model.live hace que cambien en tiempo real -> $todo -->
         <span>Current todo: {{ $todo }}</span>
 
-        <button type="submit">Add</button> 
+        <button type="submit">Add</button>
     </form>
 
     <ul>
